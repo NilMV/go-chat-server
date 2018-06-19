@@ -8,7 +8,7 @@ import "os"
 func main() {
 
 	// connect to this socket
-	conn, _ := net.Dial("tcp", "127.0.0.1:8081")
+	conn, _ := net.Dial("tcp", "127.0.0.1:6000")
 	for {
 		reader := bufio.NewReader(os.Stdin)
 		fmt.Print("Text to send: ")
